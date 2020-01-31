@@ -78,6 +78,13 @@ class MainActivity : AppCompatActivity(){
 
                         println("${p.id} -> ${p.name} ${p.email}")
                         val person: Person? = Person(p!!.id, p.name, p.email)
+
+                        if(edtName.text.isNotEmpty())
+                             person?.name = edtName.text.toString()
+
+                        if(edtEmail.text.isNotEmpty())
+                            person?.email = edtEmail.text.toString()
+
                         realm.insertOrUpdate(person)
                     }else
                         toast("Id not present!")
