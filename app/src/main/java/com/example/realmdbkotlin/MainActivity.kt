@@ -122,6 +122,10 @@ class MainActivity : AppCompatActivity(){
                 toast("Nothing to fetch!")
         }
 
+        switchPersonDept.setOnCheckedChangeListener { buttonView, isChecked ->
+
+        }
+
     }
 
     override fun onDestroy() {

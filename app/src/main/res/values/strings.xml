@@ -8,4 +8,6 @@
     <string name="delete">Delete</string>
     <string name="fetch">Fetch</string>
     <string name="fetchAll">Fetch All</string>
+    <string name="person">Person</string>
+    <string name="department">Department</string>
 </resources>

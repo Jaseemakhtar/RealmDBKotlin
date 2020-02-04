@@ -9,5 +9,6 @@ open class Person(
     @NotNull
     var id: Long = 0,
     var name: String = "",
-    var email: String = ""
+    var email: String = "",
+    var department: Department?
 ): RealmObject()
